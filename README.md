@@ -10,11 +10,13 @@ Requires reallryansmith.apache-yum ansible role
 Example Playbook
 ----------------
 
+```
 ---
 - hosts: all
   become: yes
   roles:
     - php-webserver
+```
 
 License
 -------
